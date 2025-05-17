@@ -524,43 +524,46 @@
 .left_eyebrow {
     position: absolute;
     z-index: 4;
-    height: 2px;
-    width: 30px;
-    background-color: black;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    top: 20px;
-    left: 22px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px 20px 50px 19px;
+    transform: rotate(-140deg);
+    border-style: solid;
+    border-color: black;
+    border-top: 1px;
+    border-left: 1px;
+    top: 15px;
+    left: 27px;
 }
 
 .right_eyebrow {
     position: absolute;
     z-index: 4;
-    height: 2px;
-    width: 30px;
-    background-color: black;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    top: 20px;
-    right: 22px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px 20px 50px 19px;
+    transform: rotate(-140deg);
+    border-style: solid;
+    border-color: black;
+    border-top: 1px;
+    border-left: 1px;
+    top: 15px;
+    right: 27px;
 }
 
 .nose_upper {
     position: absolute;
     z-index: 4;
-    height: 2px;
-    width: 30px;
-    background-color: black;
-    border-top-left-radius: 20%;
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 0;
-    border-bottom-right-radius: 0;
-    top: 80px;
-    right: 60px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px 20px 50px 19px;
+    transform: rotate(-140deg);
+    border-style: solid;
+    border-color: black;
+    border-top: 1px;
+    border-left: 1px;
+    top: 75px;
+    right: 65px;
 }
 
 .nose {
@@ -578,12 +581,16 @@
 .lip {
     position: absolute;
     z-index: 4;
-    height: 1px;
-    width: 30px;
-    background-color: black;
-    top: 110px;
-    right: 60px;
-    border: 2px solid black;
+    top: 100px;
+    right: 65px;
+    height: 20px;
+    width: 20px;
+    border-radius: 10px 20px 50px 10px;
+    transform: rotate(50deg);
+    border-style: solid;
+    border-color: black;
+    border-top: 1px;
+    border-left: 1px;
 }
 
 .bell {
